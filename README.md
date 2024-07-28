@@ -17,3 +17,11 @@
 
 
 ![Flower](https://github.com/nandapg0204/Flower-Identification-Using-Transfer-Learning/blob/main/images/model_architecture.PNG?raw=true)
+<h2> Training Approach Description</h2>
+
+
+<p>This neural network training process involved two key phases: feature engineering and fine-tuning, with adaptive learning rates tailored to each phase to optimize model performance.</p>
+<p><strong>Feature Engineering Phase :</strong>During this phase all layers of the pre-trained model were frozen while new feature representations were generated. This phase focused on training the added layers to adapt to the specific task using a higher learning rate.</p>
+<p><strong>Fine-Tuning Phase:</strong>This phase involved selectively unfreezing some of the top layers of the model. Then the model was trained on a smaller learning rate. This approach allowed the model to refine its learned representations, particularly in areas critical to the task, without destabilizing the already learned features.</p>
+<h2>Loss and Accuracy plots </h2>
+![lossandaccuracy](https://github.com/nandapg0204/Flower-Identification-Using-Transfer-Learning/blob/main/images/Loss_Accuracy_Curves.PNG?raw=true)
