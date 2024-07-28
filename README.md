@@ -7,7 +7,7 @@
 
 
 <p> This project implements a Flower Identification System using Transfer Learning with Convolutional Neural Networks (CNNs).The goal is to classify images of flowers into their respective categories by leveraging pre-trained models, specifically the EfficientNetB7 architecture.</p>
-<h2>Experimentation<h2>
+<h2>Experimentation</h2>
 
 
 <p>    In this, I explored the effectiveness of different convolutional neural network architectures for my classification task. Initially, I developed a custom-built model from scratch to establish a baseline understanding of the dataset and initial performance benchmarks.</p>
